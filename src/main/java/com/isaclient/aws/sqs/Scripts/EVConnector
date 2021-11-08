@@ -1,0 +1,12 @@
+{
+  "EVServiceEquipment__id": "7wi8ukdhridc69huhm1fjjui6",
+  "_id": "9o9h7y1j0rtewg417tsyjut19",
+  "_status": "active",
+  "connector": "J1772",
+  "format": "CABLE",
+  "maxAmperage": "10",
+  "maxElectricPower": "10",
+  "maxVoltage": "10",
+  "powerType": "AC_3_PHASE",
+  "lastUpdated": "2021-10-20T15:35:51.948Z"
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "1ul39q7bmdba7s2lrw9rcxji5",
+  "_status": "active",
+  "access": "yes",
+  "address": "1 City Pl",
+  "city": "White Plains",
+  "countryCodeIso": "USA",
+  "countryCode": "US",
+  "countryName": "United States of America",
+  "description": "567",
+  "facilities": "facilities",
+  "geoPoint": {"type": "Point", "coordinates": [-73.76528, 41.032755]},
+  "name": "One City Place Apartments",
+  "parkingType": "parkingType",
+  "postalCode": "10601",
+  "stateCode": "NY",
+  "stateName": "New York",
+  "publish": "1",
+  "lastUpdated": "2021-10-20T15:35:51.948Z"
+
+}
+
+
+

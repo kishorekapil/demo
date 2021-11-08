@@ -1,0 +1,28 @@
+Please run the below commands Create a SQS Queue using AWS CLI in command line
+
+sudo aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name EVChargingLocation
+sudo aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name EVServiceEquipment
+sudo aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name EVConnector
+
+
+Once the queues are created and database is setup, run the spring-boot application and use the sample json data from
+EVChargingLocation to send it to its respective queue.
+
+
+To send the data to the particular Queue use postman application:
+Method: POST
+HEADER: Content-Type - Application/json
+BODY : raw - json format
+URL : http://localhost:8099/Ev/ChargingLocation (for EVChargingLocation)
+URL : http://localhost:8099/Ev/ServiceEquipment (for EVServiceEquipment)
+URL : http://localhost:8099/Ev/Connector (for EVConnector)
+
+
+To receive the data to the particular Queue use postman application:
+Method: GET
+URL : http://localhost:8099/Ev/ChargingLocation/pull/message (for EVChargingLocation)
+URL : http://localhost:8099/Ev/ServiceEquipment/pull/message (for EVServiceEquipment)
+URL : http://localhost:8099/Ev/Connector/pull/message (for EVConnector)
+
+
+Run the required query in the database to crosscheck the result.

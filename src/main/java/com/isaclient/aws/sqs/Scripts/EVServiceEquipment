@@ -1,0 +1,11 @@
+{
+  "EVChargingLocation__id": "1ul39q7bmdba7s2lrw9rcxji5",
+  "_id": "7wi8ukdhridc69huhm1fjjui6",
+  "_status": "active",
+  "name": "toyota",
+  "network": "ChargePoint",
+  "networkUrl": "http://www.chargepoint.com/",
+  "status": "AVAILABLE",
+  "lastUpdated": "2021-10-20T15:35:51.948Z"
+
+}

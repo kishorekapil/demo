@@ -1,0 +1,15 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+    credentials:
+      access-key: test
+      secret-key: test
+    end-point:
+      url: http://localhost:4566/000000000000/EVConnector
+    sqs:
+      end-point: http://localhost:4566
+
+
